@@ -18,7 +18,7 @@
     "@ai-sdk/rsc": "^3.0.92",
     "@langchain/classic": "^1.0.61",
     "@langchain/core": "^1.2.14",
-    "@langchain/langgraph": "^1.4.10",
+    "@langchain/langgraph": "^1.7.5",
     "@langchain/langgraph-sdk": "^1.16.0",
     "@langchain/openai": "^1.8.4",
     "@langchain/tavily": "^1.2.0",
