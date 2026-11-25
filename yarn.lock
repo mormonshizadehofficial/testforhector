@@ -893,11 +893,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@langchain/classic@npm:^1.0.61":
-  version: 1.0.61
-  resolution: "@langchain/classic@npm:1.0.61"
+"@langchain/classic@npm:^1.0.62":
+  version: 1.0.62
+  resolution: "@langchain/classic@npm:1.0.62"
   dependencies:
-    "@langchain/openai": 1.8.4
+    "@langchain/openai": 1.8.5
     "@langchain/textsplitters": 1.0.2
     handlebars: ^4.7.10
     js-yaml: ^5.5.0
@@ -907,7 +907,7 @@ __metadata:
     yaml: ^2.9.1
     zod: ^4.6.6
   peerDependencies:
-    "@langchain/core": ^1.4.0
+    "@langchain/core": ^1.5.0
     cheerio: "*"
     peggy: ^5.1.1
     typeorm: "*"
@@ -921,7 +921,7 @@ __metadata:
       optional: true
     typeorm:
       optional: true
-  checksum: a0538517db71ccf11d260a000013bc45d79dd42c9c01b90af0748f4b6c82199f44a2941c40e6451486d7bbbb4bc98bd47af378a63178456303b082cd55637793
+  checksum: 536133f6a0be161dfe28bc6fb1fa11db0c09513c26743e245aa2c559d49d2b42227fa5fac8ca72ac6d20669e0fdd63fc209f919d907748a89d07d7935a7bdd57
   languageName: node
   linkType: hard
 
@@ -1012,7 +1012,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@langchain/openai@npm:1.8.4, @langchain/openai@npm:^1.8.4":
+"@langchain/openai@npm:1.8.5":
+  version: 1.8.5
+  resolution: "@langchain/openai@npm:1.8.5"
+  dependencies:
+    js-tiktoken: ^1.0.12
+    openai: ^7.47.0
+    zod: ^4.6.6
+  peerDependencies:
+    "@langchain/core": ^1.5.0
+  checksum: ab05895ef1eece899cd62b4b30c021a6e650a7b79313156489137ab44d37f22a753adc4be3b9550fd002d5ec7f67a9e93d7b380a74e3fc4f2526c9c5471350f4
+  languageName: node
+  linkType: hard
+
+"@langchain/openai@npm:^1.8.4":
   version: 1.8.4
   resolution: "@langchain/openai@npm:1.8.4"
   dependencies:
@@ -4965,7 +4978,7 @@ __metadata:
   dependencies:
     "@ai-sdk/react": ^4.0.109
     "@ai-sdk/rsc": ^3.0.92
-    "@langchain/classic": ^1.0.61
+    "@langchain/classic": ^1.0.62
     "@langchain/core": ^1.2.14
     "@langchain/langgraph": ^1.4.10
     "@langchain/langgraph-sdk": ^1.16.0
